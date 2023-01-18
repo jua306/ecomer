@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+/* aquie el buscador  */
+.buscardor{
+    width: 500px;   
+    text-align: left;
+    padding: 12px 0 0 0;
+    
+
+}
+/* aqui la etiqueta de adentro */
+.adentro{
+    border: 2px solid  #002060;
+    color: #002060;  
+    padding: 0 15px 15px 15px;
+    font-size:11px;      
+    height: 35px; 
+    text-align: left;
+    
+
+}
+/* parte izquierda */
+.cont1{
+   
+    height: 100vh;
+    width: 50%;
+   /* background: blue; */
+    
+}
+/* parte dercha */
+.cont2{
+    background-size: 16 ;
+    background-position: center;
+    width: 50%;
+    height: 100vh;   
+    /* background: blue; */
+    
+}
+/* unir las pantallas */
+.pantalla{ 
+    display: flex;
+    position: relative;
+
+}
+/* parrafos  */
+p{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size:11px;
+    color: #002060;
+
+}
+
+/* todas las etiquetas de llamado a la bd */
+.conten1{
+    max-width: 500px;
+    height: 70px ;
+    margin: 0px 30px 5px 5px; 
+    border: 2px solid  #002060;
+    color: #002060; 
+        
+}
+.conten2{
+    max-width: 500px;
+    height:  145px ;
+    margin: 0px 30px 5px 5px; 
+    border: 2px solid  #002060;
+    color: #002060;     
+}
+.conten3{
+    position: relative;
+    max-width: 500px;
+    height:  100px ;
+    margin: 0px 30px 5px 5px; 
+    border: 2px solid  #002060;
+    color: #002060;     
+}
+/* botones */
+.boton1{
+    height: 50px;
+    padding: 2px 15px 6px 15px;
+    margin: 2px 15px 0 400px ;
+    background-color: #002060;
+    border: 3px solid  #00b0f0;
+    color: #ffffff;
+    width: 110px;
+    text-align: center;
+    border-radius: 8px;
+}
+.boton2{
+    background-color: red;
+    width: 350px;
+    margin:20px  auto 15px;
+    padding: 6px 15px 6px 15px;
+    background-color: #002060;
+    border: 3px solid  #00b0f0;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* el espacio de la lista  */
+.espace{
+    margin: 0 0 0 55px;
+    padding: 0;
+    text-align: left;
+    width: 20px;
+    height: 20px;
+    
+}
+.espace2{
+    text-align: left !important;
+    margin: 0 0 3px 25px;
+    height: 20px;
+    color: blue;
+    
+
+}
+span{
+    margin: 5px 0 5px 55px ;
+    padding: 5px;
+    text-align: center;
+    font-size:11px;
+    color: #002060;
+
+}
+.fija{
+    position: absolute;
+    bottom: 9px;
+    right: 85px;
+    margin: 0;
+    padding: 0;
+    
+}
+.fija2{
+    border: 2px solid #002060 ;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #002060;
+    border: 2px solid #00b0f0;
+
+}
+.pantalla2{
+    width: 100%;
+    height: 1000px;
+    background-color: red;
+}
+.hide{
+    display: none;
+}
